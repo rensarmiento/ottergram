@@ -46,12 +46,16 @@ button {
   padding: 16px 16px;
   background: rgb(96, 125, 139);
   font-size: 32px;
+
+  transition: transform 133ms ease-in-out;
 }
 
 button:hover {
-  /*background-color: #ddd;*/
-  background-color: white;/*rgb(202, 238, 255);*/
+  /*background-color: #ddd;
+  background-color: white;
   color: black;
+  */
+  transform: scale(1.2);
 }
 
 .previous {
